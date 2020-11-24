@@ -16,7 +16,6 @@
 		162D3D0F252BD076003BF756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D3D0E252BD076003BF756 /* ContentView.swift */; };
 		162D3D11252BD078003BF756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162D3D10252BD078003BF756 /* Assets.xcassets */; };
 		162D3D14252BD078003BF756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162D3D13252BD078003BF756 /* Preview Assets.xcassets */; };
-		162D3D16252BD078003BF756 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D3D15252BD078003BF756 /* Persistence.swift */; };
 		162D3D19252BD078003BF756 /* StudioSession.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 162D3D17252BD078003BF756 /* StudioSession.xcdatamodeld */; };
 		162D3D24252BD078003BF756 /* StudioSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D3D23252BD078003BF756 /* StudioSessionTests.swift */; };
 		162D3D2F252BD078003BF756 /* StudioSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D3D2E252BD078003BF756 /* StudioSessionUITests.swift */; };
@@ -34,6 +33,7 @@
 		16D1E573253664DB0091AA6F /* PrivateSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1E572253664DB0091AA6F /* PrivateSessionView.swift */; };
 		16D1E578253664EA0091AA6F /* PublicSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1E577253664EA0091AA6F /* PublicSessionView.swift */; };
 		B4C9F025256D214200191C28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4C9F024256D214200191C28 /* GoogleService-Info.plist */; };
+		B4EA6830256DB2A100D13182 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EA682F256DB2A100D13182 /* Persistence.swift */; };
 		E626A8D4267C3D27BBA4E0D9 /* Pods_StudioSessionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39699B10E516B5A7103A17F7 /* Pods_StudioSessionTests.framework */; };
 		E9E3E2265B04F4657E0CE4CC /* Pods_StudioSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF00FADEE43978CBCD49F3A2 /* Pods_StudioSession.framework */; };
 		FD58F8737057839237EA419E /* Pods_StudioSession_StudioSessionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5DDEF3F7ABB54A9DAC9BC /* Pods_StudioSession_StudioSessionUITests.framework */; };
@@ -68,7 +68,6 @@
 		162D3D0E252BD076003BF756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		162D3D10252BD078003BF756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		162D3D13252BD078003BF756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		162D3D15252BD078003BF756 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		162D3D18252BD078003BF756 /* StudioSession.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudioSession.xcdatamodel; sourceTree = "<group>"; };
 		162D3D1A252BD078003BF756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		162D3D1F252BD078003BF756 /* StudioSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudioSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +94,7 @@
 		767B861197CF28590349A22A /* Pods-StudioSessionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudioSessionTests.release.xcconfig"; path = "Target Support Files/Pods-StudioSessionTests/Pods-StudioSessionTests.release.xcconfig"; sourceTree = "<group>"; };
 		B0FF4C5649AC223754074F8E /* Pods-StudioSession-StudioSessionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudioSession-StudioSessionUITests.debug.xcconfig"; path = "Target Support Files/Pods-StudioSession-StudioSessionUITests/Pods-StudioSession-StudioSessionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4C9F024256D214200191C28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4EA682F256DB2A100D13182 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B64F94487868CEB89E3D1E17 /* Pods-StudioSession.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudioSession.release.xcconfig"; path = "Target Support Files/Pods-StudioSession/Pods-StudioSession.release.xcconfig"; sourceTree = "<group>"; };
 		CF9C888790C8C7EB8A944F69 /* Pods-StudioSession-StudioSessionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudioSession-StudioSessionUITests.release.xcconfig"; path = "Target Support Files/Pods-StudioSession-StudioSessionUITests/Pods-StudioSession-StudioSessionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF00FADEE43978CBCD49F3A2 /* Pods_StudioSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudioSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,8 +185,8 @@
 				16D1E577253664EA0091AA6F /* PublicSessionView.swift */,
 				165B455A253D278D0013F2F5 /* FriendsView.swift */,
 				16038102253E7B050038ABD7 /* LocationManager.swift */,
+				B4EA682F256DB2A100D13182 /* Persistence.swift */,
 				162D3D10252BD078003BF756 /* Assets.xcassets */,
-				162D3D15252BD078003BF756 /* Persistence.swift */,
 				162D3D1A252BD078003BF756 /* Info.plist */,
 				162D3D17252BD078003BF756 /* StudioSession.xcdatamodeld */,
 				162D3D12252BD078003BF756 /* Preview Content */,
@@ -487,10 +487,10 @@
 				1672D3DF2547B1E500332E06 /* SessionsView.swift in Sources */,
 				16038108253E7ED70038ABD7 /* CreateSessionView.swift in Sources */,
 				1672D3E42547B31B00332E06 /* User.swift in Sources */,
-				162D3D16252BD078003BF756 /* Persistence.swift in Sources */,
 				1676889D253A2B710031FDB3 /* SessionRowView.swift in Sources */,
 				16428C21253E45BD00C120DF /* Constants.swift in Sources */,
 				162D3D0F252BD076003BF756 /* ContentView.swift in Sources */,
+				B4EA6830256DB2A100D13182 /* Persistence.swift in Sources */,
 				165CA398254F178C0042B09A /* Home.swift in Sources */,
 				162D3D19252BD078003BF756 /* StudioSession.xcdatamodeld in Sources */,
 				1672D3E92547B35F00332E06 /* Session.swift in Sources */,

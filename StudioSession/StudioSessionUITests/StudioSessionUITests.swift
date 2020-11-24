@@ -1,9 +1,3 @@
-//
-//  StudioSessionUITests.swift
-//  StudioSessionUITests
-//
-//  Created by Yak Fishman on 10/5/20.
-//
 
 import XCTest
 

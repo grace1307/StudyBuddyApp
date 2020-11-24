@@ -1,9 +1,3 @@
-//
-//  StudioSessionTests.swift
-//  StudioSessionTests
-//
-//  Created by Yak Fishman on 10/5/20.
-//
 
 import XCTest
 @testable import StudioSession
