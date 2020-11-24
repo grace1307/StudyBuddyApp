@@ -1,0 +1,6 @@
+framework module Pods_StudioSession {
+  umbrella header "Pods-StudioSession-umbrella.h"
+
+  export *
+  module * { export * }
+}

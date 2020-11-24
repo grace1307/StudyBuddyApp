@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>107744712413-fsmss295bct4e77emh0ijuv6qog8gvia.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.107744712413-fsmss295bct4e77emh0ijuv6qog8gvia</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzbBA4BnoE5Ok4w5-nuUlXeP_htvvF1AY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>107744712413</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.YFApps.StudioSession</string>
+	<key>PROJECT_ID</key>
+	<string>testing-user-auth</string>
+	<key>STORAGE_BUCKET</key>
+	<string>testing-user-auth.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:107744712413:ios:a8c2464182c87aa4872d34</string>
+	<key>DATABASE_URL</key>
+	<string>https://testing-user-auth.firebaseio.com</string>
+</dict>
+</plist>
